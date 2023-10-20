@@ -23,4 +23,5 @@ int main()
 			cout << large_number <<" = " << a <<" * "<< b <<endl;
 		}
 	}
+	int b = 10;
 }
