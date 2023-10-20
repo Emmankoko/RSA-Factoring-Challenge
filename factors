@@ -7,8 +7,11 @@ using namespace std;
  */
 int main()
 {
+
 	int large_number, i = 2, a, b;
 
+	int a = 9;
+	int b = 7;	
 	ifstream in(file);
 	if(in.good())
 	{
