@@ -1,5 +1,7 @@
 name: create a comment on new issue
 
+run-name : ${{ github.actor }} is learning github actions
+
 on:
   issues: 
     types: [opened]
