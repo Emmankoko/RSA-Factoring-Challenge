@@ -18,7 +18,7 @@ jobs:
       fail-fast: false
       matrix:
         os:
-          - { name: mac0S-11 , arch: x86_64-apple-darwin11.4.2 }
+          - { name: ubuntu-20.04 , arch: x86_64-linux-gnu-ubuntu-20.04 }
         dc:
           - ldc-latest
         target:
