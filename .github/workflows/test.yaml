@@ -22,7 +22,7 @@ jobs:
         dc:
           - ldc-latest
         target:
-          - { name: clang-9, compiler: clang, cxx-version: 9.4.0 }
+          - { name: clang-9, compiler: clang, cxx-version: 9.0.0 }
 
     # Using a specific version for reproductibility.
     # Feel free to update when a new release has matured.
