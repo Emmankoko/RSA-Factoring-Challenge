@@ -21,7 +21,7 @@ int main()
 			a = large_number / i;
 			b = large_number / a;
 			cout << large_number <<" = " << a <<" * "<< b <<endl;
-			cout << "helrffffvbjjhjjfbgvflofffhhh";
+			cout << "helrffffvbjhghjjhjjfbgvflofffhhh";
 		}
 	}
 }
