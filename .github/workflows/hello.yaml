@@ -18,12 +18,12 @@ name: E2E tests
 on:
   pull_request:
     branches:
-      - v*.*.x
+      - main
     paths-ignore:
       - 'README.md'
   push:
     branches:
-      - v*.*.x
+      - main
       # Use this branch name in your fork to test changes
       - github-actions
 
@@ -35,7 +35,7 @@ jobs:
       fail-fast: false
       matrix:
         os:
-          - { name: macos-11, arch: x86_64-darwin-apple }
+          - { name: macos-11, arch: x86_64-apple-darwin }
         dc:
           - ldc-latest
         target:
