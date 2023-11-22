@@ -39,7 +39,7 @@ jobs:
         dc:
           - ldc-latest
         target:
-          - { name: clang-9, compiler: clang, cxx-version: 9.0.0 }
+          - { name: clang-13, compiler: clang, cxx-version: 13.0.0 }
 
     # Using a specific version for reproductibility.
     # Feel free to update when a new release has matured.
@@ -198,5 +198,7 @@ jobs:
     ########################################
     #        Running the test suite        #
     ########################################
-    #- name: 'Run C++ test suite'
-     # run: dub test
+    - name: 'Run C++ test suite'
+      run: |
+        clang++ test.cpp
+        ldc2 new.d test.o
