@@ -200,5 +200,8 @@ jobs:
     ########################################
     - name: 'Run C++ test suite'
       run: |
-        clang++ test.cpp
+        clang++ -c test.cpp
+        nm test.o
+        ldc2 -c new.d
+        nm new.o
         ldc2 new.d test.o
