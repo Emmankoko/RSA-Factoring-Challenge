@@ -18,12 +18,12 @@ name: E2E tests
 on:
   pull_request:
     branches:
-      - main
+      - v*.*.x
     paths-ignore:
       - 'README.md'
   push:
     branches:
-      - main
+      - v*.*.x
       # Use this branch name in your fork to test changes
       - github-actions
 
