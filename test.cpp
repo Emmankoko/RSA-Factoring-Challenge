@@ -1,5 +1,3 @@
+#include <vector>
 
-int foo(int i)
-{
-	return i;
-}
+template class std::vector<int>;
