@@ -200,6 +200,6 @@ jobs:
     ########################################
     - name: 'Run C++ test suite'
       run: |
-        g++ -c test.cpp
+        clang++ -c test.cpp
         nm test.o | grep 'pop_back'
 
