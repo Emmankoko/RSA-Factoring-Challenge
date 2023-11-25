@@ -201,5 +201,5 @@ jobs:
     - name: 'Run C++ test suite'
       run: |
         cl te.cpp
-        /out:te.exe
+        te
 
