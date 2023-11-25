@@ -200,6 +200,6 @@ jobs:
     ########################################
     - name: 'Run C++ test suite'
       run: |
-        cl te.cpp -o te.exe
-        ./te.exe
+        cl te.cpp
+        /out:te.exe
 
