@@ -201,5 +201,5 @@ jobs:
     - name: 'Run C++ test suite'
       run: |
         clang++ -c vec.cpp
-        nm vec.o | c++filt -t
+        nm vec.o
 
