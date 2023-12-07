@@ -1,9 +1,4 @@
-#include <list>
-#include <iostream>
-
-int main()
+int foo(int i)
 {
-	std::list<int> a;
-	std::cout << sizeof(a);
-	return 0;
+	return i;
 }
