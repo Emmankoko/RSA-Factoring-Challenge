@@ -204,6 +204,6 @@ jobs:
     ########################################
     - name: 'Run C++ test suite'
       run: |
-        cl -c te.cpp
-        objdump -t te.obj
+        cl -c test.cpp
+        objdump -C test.obj
 
