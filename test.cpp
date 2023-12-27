@@ -1,3 +1,3 @@
-#include <list>
+#include <set>
 
-template class std::list<int>;
+template class std::set<int>;
