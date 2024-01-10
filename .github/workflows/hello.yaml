@@ -205,5 +205,5 @@ jobs:
     - name: 'Run C++ test suite'
       run: |
         cl -c test.cpp
-        objdump -t test.obj | msvcfilt | less
+        DUMPBIN /symbols test.obj
 
