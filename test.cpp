@@ -2,6 +2,6 @@
 
 int main()
 {
-	set<int> a;
+	std::set<int> a;
 	a.insert(4);
 }
