@@ -1,3 +1,7 @@
 #include <set>
 
-template class std::set<int>;
+int main()
+{
+	set<int> a;
+	a.insert(4);
+}
