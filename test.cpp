@@ -2,7 +2,7 @@
 
 int main()
 {
-	int a = 4;
+	int num = 4;
 	std::set<int> a;
-	a.insert(a);
+	a.insert(num);
 }
