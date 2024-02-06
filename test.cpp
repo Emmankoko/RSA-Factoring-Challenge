@@ -1,6 +1,2 @@
-#include <set>
-
-int main()
-{
-	std::set<int> a;
-}
+#include <vector>
+template class std::vector<int>;
