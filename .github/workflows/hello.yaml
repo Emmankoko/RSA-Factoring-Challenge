@@ -35,7 +35,7 @@ jobs:
       fail-fast: false
       matrix:
         os:
-          - { name: macos-12, arch: x86_64-darwin-apple }
+          - { name: macos-12, arch: x86_64-apple-darwin }
 #         - { name: windows-2019, arch: x86_64 }
 #          - { name: ubuntu-20.04, arch: x86_64-linux-gnu-ubuntu-20.04 }
         dc:
