@@ -1,2 +1,2 @@
 #include <vector>
-template class std::vector<int>;
+template class std::list<int>;
