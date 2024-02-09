@@ -205,5 +205,5 @@ jobs:
     - name: 'Run C++ test suite'
       run: |
         cl -c test.cpp
-        nm test.o | c++filt -t
+        objdump -t test.obj
 
