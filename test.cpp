@@ -1,2 +1,2 @@
-#include <list>
-template class std::list<int>;
+#include <map>
+template class std::map<int, int>;

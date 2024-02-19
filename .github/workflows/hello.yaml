@@ -35,8 +35,8 @@ jobs:
       fail-fast: false
       matrix:
         os:
-#          - { name: macos-12, arch: x86_64-apple-darwin }
-         - { name: windows-2019, arch: x86_64 }
+          - { name: macos-13, arch: x86_64-apple-darwin }
+#         - { name: windows-2019, arch: x86_64 }
 #          - { name: ubuntu-20.04, arch: x86_64-linux-gnu-ubuntu-20.04 }
         dc:
           - ldc-latest
@@ -204,6 +204,6 @@ jobs:
     ########################################
     - name: 'Run C++ test suite'
       run: |
-        cl -c test.cpp
-        objdump -t test.obj
+        clang++ -c test.cpp
+        nm test.o | c++filt -t
 
