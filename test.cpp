@@ -1,2 +1,2 @@
-#include <map>
-template class std::map<int, int>;
+#include <unordered_map>
+template class std::unordered_map<int, int>;
