@@ -1,3 +1,3 @@
-#include <vector>
+#include <unordered_map>
 
-template class std::vector<int>;
+template class std::unordered_map<int, char>;

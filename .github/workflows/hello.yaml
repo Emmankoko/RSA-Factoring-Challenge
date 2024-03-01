@@ -205,6 +205,6 @@ jobs:
     - name: 'Run C++ test suite'
       run: |
         clang++ -c test.cpp
-        nm test.o
+        nm test.o | c++filt -t
         
 
