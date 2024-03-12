@@ -5,5 +5,6 @@ int foo(T)(const ref T, const ref T, const ref T, const ref T, const ref T)
 
 void main()
 {
-        foo( 9, 9, 9, 9, 9);
+        int a;
+        foo( a, a, a, a, a);
 }
