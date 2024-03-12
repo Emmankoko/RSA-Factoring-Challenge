@@ -1,2 +1,2 @@
-#include <set>
-template class std::set<int>;
+#include <unordered_map>
+template class std::unordered_map<int, int>;
