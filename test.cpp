@@ -1,2 +1,2 @@
-#include <vector>
-template class std::vector<int>;
+#include <set>
+template class std::set<int>;
