@@ -1,4 +1,4 @@
-int foo(T)(const ref T, const ref T, const ref T, const ref T, const ref T)
+extern(C++) int foo(T)(const ref T, const ref T, const ref T, const ref T, const ref T)
 {
 	return 0;
 }
