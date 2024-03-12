@@ -1,5 +1,5 @@
 
-template<typename T> int foo(T const& a, T const&, T const& , T
+template<typename T> int foo(T const& , T const&, T const& , T
 const&, T const&)
 {
 	return 0;
@@ -7,5 +7,6 @@ const&, T const&)
 
 int main()
 {
-        foo( 9, 9, 9, 9, 9);
+		int a;
+        int res = foo( a, a, a, a, a);
 }
