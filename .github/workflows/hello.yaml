@@ -35,14 +35,14 @@ jobs:
       fail-fast: false
       matrix:
         os:
-         - { name: macos-14, arch: x86_64-apple-darwin }
-#         - { name: windows-2019, arch: x86_64 }
+#         - { name: macos-14, arch: x86_64-apple-darwin }
+         - { name: windows-2019, arch: x86_64 }
 #          - { name: ubuntu-20.04, arch: x86_64-linux-gnu-ubuntu-20.04 }
         dc:
           - ldc-latest
         target:
-          - { name: clang-13, compiler: clang, cxx-version: 13.0.0 }
-#          - { name: msvc-2017, compiler: msvc, cxx-version: 2017 }
+#          - { name: clang-13, compiler: clang, cxx-version: 13.0.0 }
+          - { name: msvc-2017, compiler: msvc, cxx-version: 2017 }
 #          - { name: g++-9, compiler: g++, cxx-version: 9.4.0 }
 
     # Using a specific version for reproductibility.
@@ -204,7 +204,7 @@ jobs:
     ########################################
     - name: 'Run C++ test suite'
       run: |
-        clang++ -c vec.cpp
-        nm vec.o
+        cl /c static.cpp
+        objdump -t static.obj
         
 
