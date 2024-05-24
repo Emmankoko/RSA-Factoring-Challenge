@@ -204,7 +204,7 @@ jobs:
     ########################################
     - name: 'Run C++ test suite'
       run: |
-        cl /c static.cpp
-        objdump -t static.obj
+        ldc2 -c stat.d
+        objdump -t stat.obj
         
 
