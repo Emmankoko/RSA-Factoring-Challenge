@@ -1,8 +1,8 @@
-template <typename T>
-class A
+template <typename T, typename V>
+class Map
 {
-    static int* make() { return 0; }
+    static Map* make() { return 0; }
 };
 
 
-template class A<int>;
+template class Map<int, char>;
