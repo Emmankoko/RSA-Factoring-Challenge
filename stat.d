@@ -1,7 +1,7 @@
 extern(C++, class):
 struct Map(T, U)
 {
-    static Map* make();
+    Map* make();
 }
 
 
