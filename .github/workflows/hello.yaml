@@ -204,7 +204,7 @@ jobs:
     ########################################
     - name: 'Run C++ test suite'
       run: |
-        ldc2 -c stat.d
-        objdump -t stat.obj
+        cl map.cpp
+        ./map.exe
         
 
