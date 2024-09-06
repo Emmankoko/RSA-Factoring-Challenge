@@ -1,2 +1,2 @@
-#include <map>
-template class std::map<int, char>;
+#include <set>
+template class std::set<int>;
